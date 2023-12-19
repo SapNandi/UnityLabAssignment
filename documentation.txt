@@ -8,7 +8,7 @@ http://localhost:4000/api/v1/buyer/seller_list [GET] ---> Buyer getting List of 
 http://localhost:4000/api/v1/seller/orders [GET] ---> Seller getting List of Orders
 
 PRODUCT Routes:
-http://localhost:4000/api/v1/product [GET] ---> Get All Product (Extra Route for Testing Purposes)
+http://localhost:4000/api/v1/product [GET] ---> Get All Product (Extra Route for Testing Purposes)*
 http://localhost:4000/api/v1/product/new [POST] ---> Seller creating Products
 http://localhost:4000/api/v1/buyer/seller_catalog/:id [GET] ---> Buyer getting the catalog of the desired seller
 http://localhost:4000/api/v1/seller/create_catalog/:id [POST] ---> Seller making product catalog
