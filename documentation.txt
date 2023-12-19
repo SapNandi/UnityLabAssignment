@@ -22,6 +22,7 @@ http://localhost:4000/api/v1/buyer/createOrder/:id [POST] ---> Buyer creating or
 
 Used MongoDB a NONSQL database for storing data. Included the .env files in the repository so that there exists no issue with the secretkey for token generation and cookie attributes.
 
+install all dependencies ---> npm i or npm install
 development run ---> npm run dev
 application run ---> npm start
 
