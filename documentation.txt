@@ -1,0 +1,29 @@
+Used MVC approach for building the backend API.
+
+USER Routes:
+http://localhost:4000/api/v1/register [POST] ---> User Registration
+http://localhost:4000/api/v1/login [POST] ---> User Login
+http://localhost:4000/api/v1/logout [GET] ---> User Logout
+http://localhost:4000/api/v1/buyer/seller_list [GET] ---> Buyer getting List of Sellers
+http://localhost:4000/api/v1/seller/orders [GET] ---> Seller getting List of Orders
+
+PRODUCT Routes:
+http://localhost:4000/api/v1/product [GET] ---> Get All Product (Extra Route for Testing Purposes)
+http://localhost:4000/api/v1/product/new [POST] ---> Seller creating Products
+http://localhost:4000/api/v1/buyer/seller_catalog/:id [GET] ---> Buyer getting the catalog of the desired seller
+http://localhost:4000/api/v1/seller/create_catalog/:id [POST] ---> Seller making product catalog
+http://localhost:4000/api/v1/seller/update_catalog [POST] ---> Seller updating product catalog*
+
+[Note:- * Extra feature added if anyone wants to update or add more products in their catalog later]
+
+ORDER Routes:
+http://localhost:4000/api/v1/buyer/createOrder/:id [POST] ---> Buyer creating orders 
+
+
+Used MongoDB a NONSQL database for storing data. Included the .env files in the repository so that there exists no issue with the secretkey for token generation and cookie attributes.
+
+development run ---> npm run dev
+application run ---> npm start
+
+Thank You!
+
